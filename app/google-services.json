@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1011123960317",
+    "firebase_url": "https://notifications-423d9.firebaseio.com",
+    "project_id": "notifications-423d9",
+    "storage_bucket": "notifications-423d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011123960317:android:cafb4b9d59e56101",
+        "android_client_info": {
+          "package_name": "com.example.goptimus.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011123960317-7hgn62ov4orasi83sg3frd1m0of3d3o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ukNMsDnZMUIS3_H-p1gKdyivTOvk064"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

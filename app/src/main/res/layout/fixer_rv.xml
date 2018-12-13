@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detailles du Rendez-vous"
+        android:fontFamily="@font/caviardreamsbold"
+        android:textSize="30px"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"
+            android:id="@+id/date"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/caviardreamsbold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Heure"
+            android:id="@+id/heure"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/caviardreamsbold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lieux"
+            android:id="@+id/lieux"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/caviardreamsbold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retour"
+            android:id="@+id/retourrv"
+            android:fontFamily="@font/caviardreamsbold"
+            android:background="#36A9E0"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="valider"
+            android:id="@+id/validerrv"
+            android:fontFamily="@font/caviardreamsbold"
+            android:background="#36A9E0"
+            android:layout_marginLeft="5dp"
+           />
+    </LinearLayout>
+</LinearLayout>

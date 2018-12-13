@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/user"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prenom Nom"
+            android:fontFamily="@font/caviardreamsbold"/>
+
+        <TextView
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addresse"
+            android:fontFamily="@font/caviardreamsbold"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/montant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Montant"
+            android:fontFamily="@font/caviardreamsbold"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="776537639"
+            android:fontFamily="@font/caviardreamsbold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="O"
+            android:paddingTop="10dp"
+            android:textColor="@color/red"
+            android:background="@drawable/danger"
+            android:layout_marginTop="22dp"
+            android:id="@+id/etat"
+            >
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
